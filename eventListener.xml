@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
+	<import>
+		<eventlistener name="uzbotAddNewsInherited">
+			<eventclassname>wcf\acp\form\UzbotAddForm</eventclassname>
+			<eventname>assignVariables,readFormParameters,save,validate,saved</eventname>
+			<listenerclassname>news\system\event\listener\UzbotAddFormNewsListener</listenerclassname>
+			<inherit>1</inherit>
+			<environment>admin</environment>
+		</eventlistener>
+		
+		<eventlistener name="uzbotEditNewsReadData">
+			<eventclassname>wcf\acp\form\UzbotEditForm</eventclassname>
+			<eventname>readData</eventname>
+			<listenerclassname>news\system\event\listener\UzbotAddFormNewsListener</listenerclassname>
+			<environment>admin</environment>
+		</eventlistener>
+	</import>
+</data>

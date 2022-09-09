@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.acp.uzbot">
+		<item name="wcf.acp.uzbot.notify.news"><![CDATA[News - News]]></item>
+		<item name="wcf.acp.uzbot.notify.news.categoryIDs"><![CDATA[Kategorie(n)]]></item>
+		<item name="wcf.acp.uzbot.notify.news.categoryIDs.error.invalid"><![CDATA[Ungültige Kategorie(n)]]></item>
+		<item name="wcf.acp.uzbot.notify.news.categoryIDs.error.notConfigured"><![CDATA[Es muss mindestens eine Kategorie gewählt werden.]]></item>
+		<item name="wcf.acp.uzbot.notify.news.newsImageID"><![CDATA[Bild-ID]]></item>
+		<item name="wcf.acp.uzbot.notify.news.newsImageID.description"><![CDATA[ID des Standardbildes, das dargestellt werden soll. 0 eingeben, um kein Bild anzuzeigen.]]></item>
+		<item name="wcf.acp.uzbot.notify.news.newsImageID.error.missing"><![CDATA[Das Bild existiert nicht.]]></item>
+		<item name="wcf.acp.uzbot.notify.news.setting"><![CDATA[Einstellungen]]></item>
+		<item name="wcf.acp.uzbot.notify.news.source"><![CDATA[Quellenname]]></item>
+		<item name="wcf.acp.uzbot.notify.news.sourceUrl"><![CDATA[Quellenlink]]></item>
+		<item name="wcf.acp.uzbot.notify.news.status"><![CDATA[Status]]></item>
+		<item name="wcf.acp.uzbot.notify.news.status.bigVersion"><![CDATA[große Newsansicht]]></item>
+		<item name="wcf.acp.uzbot.notify.news.status.isDisabled"><![CDATA[deaktiviert]]></item>
+		<item name="wcf.acp.uzbot.notify.news.status.isHot"><![CDATA[empfohlen]]></item>
+		<item name="wcf.acp.uzbot.notify.news.status.onlySidebar"><![CDATA[nur in der Sidebar anzeigen]]></item>
+		<item name="wcf.acp.uzbot.notify.type.news"><![CDATA[News]]></item>
+	</category>
+</language>
